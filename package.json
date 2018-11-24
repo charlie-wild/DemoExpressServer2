@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha spec",
-    "dev": "nodemon listen.js"
+    "dev": "nodemon listen.js",
+    "seed": "psql -f sampledb.sql > text.txt"
   },
   "keywords": [],
   "author": "",
